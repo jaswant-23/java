@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Railways - Book Ticket</title>
+    <link rel="stylesheet" href="irctccss.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="indian-railways-logo.png" alt="Indian Railways Logo">
+            </div>
+            <div class="nav">
+                <a href="#">LOGIN</a>
+                <a href="#">REGISTER</a>
+                <a href="#">AGENT LOGIN</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">DAILY DEALS</a>
+                <a href="#">ALERTS</a>
+                <span class="date-time">22-May-2024 [05:36:33]</span>
+                <span class="language">हिंदी</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <a href="#">IRCTC EXCLUSIVE</a>
+            <a href="#">TRAINS</a>
+            <a href="#">BUSES</a>
+            <a href="#">FLIGHTS</a>
+            <a href="#">HOTELS</a>
+            <a href="#">HOLIDAYS</a>
+            <a href="#">LOYALTY</a>
+            <a href="#">MEALS</a>
+            <a href="#">PROMOTIONS</a>
+            <a href="#">MORE</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="train-banner.jpg" alt="Indian Railways">
+            <div class="banner-text">
+                <h1>INDIAN RAILWAYS</h1>
+                <p>Safety | Security | Punctuality</p>
+            </div>
+        </section>
+        <section class="booking-form">
+            <h2>BOOK TICKET</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="from">From</label>
+                    <input type="text" id="from" name="from">
+                </div>
+                <div class="form-group">
+                    <label for="to">To</label>
+                    <input type="text" id="to" name="to">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" value="2024-05-22">
+                </div>
+                <div class="form-group">
+                    <label for="class">Class</label>
+                    <select id="class" name="class">
+                        <option value="all">All Classes</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quota">Quota</label>
+                    <select id="quota" name="quota">
+                        <option value="general">GENERAL</option>
+                    </select>
+                </div>
+                <div class="form-group checkboxes">
+                    <label><input type="checkbox" name="disability"> Person With Disability Concession</label>
+                    <label><input type="checkbox" name="flexible"> Flexible With Date</label>
+                    <label><input type="checkbox" name="berth"> Train with Available Berth</label>
+                    <label><input type="checkbox" name="pass"> Railway Pass Concession</label>
+                </div>
+                <button type="submit" class="search-button">Search</button>
+                <button type="button" class="ask-disha">Try booking in Ask DISHA 2.0</button>
+            </form>
+            <p class="note">Please click here for Empanelment for PAD items for Catering.</p>
+        </section>
+    </main>
+</body>
+</html>

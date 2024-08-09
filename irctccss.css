@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.date-time, .language {
+    margin-left: 20px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0055a5;
+}
+
+.main-nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    background-color: #003366;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 30px;
+    margin: 10px 0 0 0;
+}
+
+.booking-form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.booking-form h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.checkboxes {
+    text-align: left;
+}
+
+.checkboxes label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0055a5;
+}
+
+.ask-disha {
+    background-color: #28a745;
+}
+
+.ask-disha:hover {
+    background-color: #218838;
+}
+
+.note {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
